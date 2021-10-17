@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_FunsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HoneyComb()
         }
     }
 }
