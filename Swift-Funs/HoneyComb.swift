@@ -10,7 +10,7 @@ import SwiftUI
 struct HoneyComb: View {
     var body: some View {
         NavigationView {
-            Home()
+            HoneyCombHomeView()
                 .navigationTitle("Honey Comb")
         }
     }
@@ -23,7 +23,7 @@ struct HoneyComb_Previews: PreviewProvider {
     }
 }
 
-struct Home: View {
+struct HoneyCombHomeView: View {
     //Sample data for scrollview ...
     @State private var sampleData:[Date] = Array(repeating: Date(), count: 0)
     
