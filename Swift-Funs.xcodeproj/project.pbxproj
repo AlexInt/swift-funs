@@ -12,6 +12,7 @@
 		F72B723D271BC9E1004CA48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723C271BC9E1004CA48C /* Assets.xcassets */; };
 		F72B7240271BC9E1004CA48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723F271BC9E1004CA48C /* Preview Assets.xcassets */; };
 		F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7246271BCA03004CA48C /* HoneyComb.swift */; };
+		F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773FBE1272CE29200D18C39 /* HudContent.swift */; };
 		F77F925627240B3D00A9379B /* RectRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F925527240B3D00A9379B /* RectRotation.swift */; };
 		F77F925E2725028700A9379B /* InsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F925D2725028700A9379B /* InsHome.swift */; };
 		F77F92602725071900A9379B /* InsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F925F2725071900A9379B /* InsContentView.swift */; };
@@ -31,6 +32,7 @@
 		F72B723C271BC9E1004CA48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72B723F271BC9E1004CA48C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F72B7246271BCA03004CA48C /* HoneyComb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyComb.swift; sourceTree = "<group>"; };
+		F773FBE1272CE29200D18C39 /* HudContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudContent.swift; sourceTree = "<group>"; };
 		F77F925527240B3D00A9379B /* RectRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectRotation.swift; sourceTree = "<group>"; };
 		F77F925D2725028700A9379B /* InsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsHome.swift; sourceTree = "<group>"; };
 		F77F925F2725071900A9379B /* InsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				F72B723A271BC9DE004CA48C /* ContentView.swift */,
 				F72B7246271BCA03004CA48C /* HoneyComb.swift */,
 				F77F925527240B3D00A9379B /* RectRotation.swift */,
+				F773FBE1272CE29200D18C39 /* HudContent.swift */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
 				F72B723E271BC9E1004CA48C /* Preview Content */,
@@ -203,6 +206,7 @@
 				F77F92602725071900A9379B /* InsContentView.swift in Sources */,
 				F77F92622725088D00A9379B /* InsFeed.swift in Sources */,
 				F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */,
+				F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */,
 				F77F926E2725239A00A9379B /* DirectView.swift in Sources */,
 				F77F925627240B3D00A9379B /* RectRotation.swift in Sources */,
 				F77F926C272521CE00A9379B /* PostView.swift in Sources */,
