@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF132B7D272F9C0D00A7D1FB /* ToolbarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */; };
+		BF132B7F272F9C2100A7D1FB /* ToolbarPopoverContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */; };
+		BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */; };
 		F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */; };
 		F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B723A271BC9DE004CA48C /* ContentView.swift */; };
 		F72B723D271BC9E1004CA48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723C271BC9E1004CA48C /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopover.swift; sourceTree = "<group>"; };
+		BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoverContent.swift; sourceTree = "<group>"; };
+		BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoversHome.swift; sourceTree = "<group>"; };
 		F72B7235271BC9DE004CA48C /* Swift-Funs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Funs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FunsApp.swift; sourceTree = "<group>"; };
 		F72B723A271BC9DE004CA48C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */ = {
+			isa = PBXGroup;
+			children = (
+				BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */,
+				BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */,
+				BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */,
+			);
+			path = ToolbarPopovers;
+			sourceTree = "<group>";
+		};
 		F72B722C271BC9DE004CA48C = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +96,7 @@
 				F72B7246271BCA03004CA48C /* HoneyComb.swift */,
 				F77F925527240B3D00A9379B /* RectRotation.swift */,
 				F773FBE1272CE29200D18C39 /* HudContent.swift */,
+				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
 				F72B723E271BC9E1004CA48C /* Preview Content */,
@@ -199,6 +216,7 @@
 			files = (
 				F77F925E2725028700A9379B /* InsHome.swift in Sources */,
 				F77F9268272518E200A9379B /* MainView.swift in Sources */,
+				BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */,
 				F77F926A2725195700A9379B /* ScrollableTabBar.swift in Sources */,
 				F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */,
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
@@ -209,6 +227,8 @@
 				F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */,
 				F77F926E2725239A00A9379B /* DirectView.swift in Sources */,
 				F77F925627240B3D00A9379B /* RectRotation.swift in Sources */,
+				BF132B7D272F9C0D00A7D1FB /* ToolbarPopover.swift in Sources */,
+				BF132B7F272F9C2100A7D1FB /* ToolbarPopoverContent.swift in Sources */,
 				F77F926C272521CE00A9379B /* PostView.swift in Sources */,
 				F77F9270272529E300A9379B /* CustomCamera.swift in Sources */,
 			);
