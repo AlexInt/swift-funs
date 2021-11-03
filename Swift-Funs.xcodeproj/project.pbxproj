@@ -10,6 +10,7 @@
 		BF132B7D272F9C0D00A7D1FB /* ToolbarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */; };
 		BF132B7F272F9C2100A7D1FB /* ToolbarPopoverContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */; };
 		BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */; };
+		BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */; };
 		F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */; };
 		F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B723A271BC9DE004CA48C /* ContentView.swift */; };
 		F72B723D271BC9E1004CA48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723C271BC9E1004CA48C /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 		BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopover.swift; sourceTree = "<group>"; };
 		BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoverContent.swift; sourceTree = "<group>"; };
 		BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoversHome.swift; sourceTree = "<group>"; };
+		BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashsAnimationView.swift; sourceTree = "<group>"; };
+		BF896AFF27326E2200115A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F72B7235271BC9DE004CA48C /* Swift-Funs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Funs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FunsApp.swift; sourceTree = "<group>"; };
 		F72B723A271BC9DE004CA48C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,11 +94,13 @@
 		F72B7237271BC9DE004CA48C /* Swift-Funs */ = {
 			isa = PBXGroup;
 			children = (
+				BF896AFF27326E2200115A80 /* Info.plist */,
 				F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */,
 				F72B723A271BC9DE004CA48C /* ContentView.swift */,
 				F72B7246271BCA03004CA48C /* HoneyComb.swift */,
 				F77F925527240B3D00A9379B /* RectRotation.swift */,
 				F773FBE1272CE29200D18C39 /* HudContent.swift */,
+				BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
@@ -222,6 +227,7 @@
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
 				F77F9265272511A800A9379B /* Post.swift in Sources */,
 				F77F92602725071900A9379B /* InsContentView.swift in Sources */,
+				BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */,
 				F77F92622725088D00A9379B /* InsFeed.swift in Sources */,
 				F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */,
 				F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */,
@@ -364,11 +370,11 @@
 				DEVELOPMENT_TEAM = YY4M4NX34G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Funs/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = PhotoLib;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -396,11 +402,11 @@
 				DEVELOPMENT_TEAM = YY4M4NX34G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Funs/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = PhotoLib;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
