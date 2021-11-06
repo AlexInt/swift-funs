@@ -16,6 +16,7 @@
 		F72B723D271BC9E1004CA48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723C271BC9E1004CA48C /* Assets.xcassets */; };
 		F72B7240271BC9E1004CA48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B723F271BC9E1004CA48C /* Preview Assets.xcassets */; };
 		F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7246271BCA03004CA48C /* HoneyComb.swift */; };
+		F72D487A27368AA100A52665 /* Neumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D487927368AA100A52665 /* Neumorphism.swift */; };
 		F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773FBE1272CE29200D18C39 /* HudContent.swift */; };
 		F77F925627240B3D00A9379B /* RectRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F925527240B3D00A9379B /* RectRotation.swift */; };
 		F77F925E2725028700A9379B /* InsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F925D2725028700A9379B /* InsHome.swift */; };
@@ -41,6 +42,7 @@
 		F72B723C271BC9E1004CA48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72B723F271BC9E1004CA48C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F72B7246271BCA03004CA48C /* HoneyComb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyComb.swift; sourceTree = "<group>"; };
+		F72D487927368AA100A52665 /* Neumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorphism.swift; sourceTree = "<group>"; };
 		F773FBE1272CE29200D18C39 /* HudContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudContent.swift; sourceTree = "<group>"; };
 		F77F925527240B3D00A9379B /* RectRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectRotation.swift; sourceTree = "<group>"; };
 		F77F925D2725028700A9379B /* InsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsHome.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				F77F925527240B3D00A9379B /* RectRotation.swift */,
 				F773FBE1272CE29200D18C39 /* HudContent.swift */,
 				BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */,
+				F72D487927368AA100A52665 /* Neumorphism.swift */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
@@ -225,6 +228,7 @@
 				F77F926A2725195700A9379B /* ScrollableTabBar.swift in Sources */,
 				F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */,
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
+				F72D487A27368AA100A52665 /* Neumorphism.swift in Sources */,
 				F77F9265272511A800A9379B /* Post.swift in Sources */,
 				F77F92602725071900A9379B /* InsContentView.swift in Sources */,
 				BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */,
