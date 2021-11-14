@@ -28,6 +28,7 @@
 		F77F926C272521CE00A9379B /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F926B272521CE00A9379B /* PostView.swift */; };
 		F77F926E2725239A00A9379B /* DirectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F926D2725239A00A9379B /* DirectView.swift */; };
 		F77F9270272529E300A9379B /* CustomCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F926F272529E300A9379B /* CustomCamera.swift */; };
+		F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F77F926B272521CE00A9379B /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F77F926D2725239A00A9379B /* DirectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectView.swift; sourceTree = "<group>"; };
 		F77F926F272529E300A9379B /* CustomCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCamera.swift; sourceTree = "<group>"; };
+		F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				F773FBE1272CE29200D18C39 /* HudContent.swift */,
 				BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */,
 				F72D487927368AA100A52665 /* Neumorphism.swift */,
+				F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
@@ -227,6 +230,7 @@
 				BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */,
 				F77F926A2725195700A9379B /* ScrollableTabBar.swift in Sources */,
 				F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */,
+				F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */,
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
 				F72D487A27368AA100A52665 /* Neumorphism.swift in Sources */,
 				F77F9265272511A800A9379B /* Post.swift in Sources */,
