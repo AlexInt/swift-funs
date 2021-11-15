@@ -10,6 +10,7 @@
 		BF132B7D272F9C0D00A7D1FB /* ToolbarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */; };
 		BF132B7F272F9C2100A7D1FB /* ToolbarPopoverContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */; };
 		BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */; };
+		BF824992274248620092C5D8 /* FakeCompass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824991274248620092C5D8 /* FakeCompass.swift */; };
 		BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */; };
 		F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7238271BC9DE004CA48C /* Swift_FunsApp.swift */; };
 		F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B723A271BC9DE004CA48C /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 		BF132B7C272F9C0D00A7D1FB /* ToolbarPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopover.swift; sourceTree = "<group>"; };
 		BF132B7E272F9C2100A7D1FB /* ToolbarPopoverContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoverContent.swift; sourceTree = "<group>"; };
 		BF132B80272F9C3100A7D1FB /* ToolbarPopoversHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPopoversHome.swift; sourceTree = "<group>"; };
+		BF824991274248620092C5D8 /* FakeCompass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCompass.swift; sourceTree = "<group>"; };
 		BF896AFD27323E4B00115A80 /* SplashsAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashsAnimationView.swift; sourceTree = "<group>"; };
 		BF896AFF27326E2200115A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F72B7235271BC9DE004CA48C /* Swift-Funs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Funs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				F72D487927368AA100A52665 /* Neumorphism.swift */,
 				F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */,
 				F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */,
+				BF824991274248620092C5D8 /* FakeCompass.swift */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
 				F72B723C271BC9E1004CA48C /* Assets.xcassets */,
@@ -237,6 +240,7 @@
 				F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */,
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
 				F72D487A27368AA100A52665 /* Neumorphism.swift in Sources */,
+				BF824992274248620092C5D8 /* FakeCompass.swift in Sources */,
 				F77F9265272511A800A9379B /* Post.swift in Sources */,
 				F77F92602725071900A9379B /* InsContentView.swift in Sources */,
 				BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */,
@@ -379,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Swift-Funs/Preview Content\"";
-				DEVELOPMENT_TEAM = YY4M4NX34G;
+				DEVELOPMENT_TEAM = C4N9FHZHPR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift-Funs/Info.plist";
@@ -411,7 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Swift-Funs/Preview Content\"";
-				DEVELOPMENT_TEAM = YY4M4NX34G;
+				DEVELOPMENT_TEAM = C4N9FHZHPR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift-Funs/Info.plist";

@@ -9,5 +9,9 @@
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Compass use</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Compass Use</string>
 </dict>
 </plist>
