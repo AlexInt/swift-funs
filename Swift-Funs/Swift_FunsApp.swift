@@ -11,7 +11,8 @@ import SwiftUI
 struct Swift_FunsApp: App {
     var body: some Scene {
         WindowGroup {
-            RefreshableHome()
+//            RefreshableHome()
+            CPContentView()
         }
     }
 }

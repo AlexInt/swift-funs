@@ -35,6 +35,9 @@
 		F77F9270272529E300A9379B /* CustomCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F926F272529E300A9379B /* CustomCamera.swift */; };
 		F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */; };
 		F7C197D22740FC6E00C7DF2A /* ScrollToTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */; };
+		F7F202CE279BF65900653083 /* CPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202CD279BF65900653083 /* CPContentView.swift */; };
+		F7F202D0279BF68A00653083 /* CPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202CF279BF68900653083 /* CPTask.swift */; };
+		F7F202D2279BF84C00653083 /* CPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202D1279BF84C00653083 /* CPExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		F77F926F272529E300A9379B /* CustomCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCamera.swift; sourceTree = "<group>"; };
 		F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingInput.swift; sourceTree = "<group>"; };
 		F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToTop.swift; sourceTree = "<group>"; };
+		F7F202CD279BF65900653083 /* CPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPContentView.swift; sourceTree = "<group>"; };
+		F7F202CF279BF68900653083 /* CPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTask.swift; sourceTree = "<group>"; };
+		F7F202D1279BF84C00653083 /* CPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 				F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */,
 				F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */,
 				BF824991274248620092C5D8 /* FakeCompass.swift */,
+				F7F202C9279BF5E100653083 /* CustomPopups */,
 				F7745D202756249C00181933 /* RefreshableScrollview */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
 				F77F925C2725026C00A9379B /* Ins */,
@@ -179,6 +186,40 @@
 				F77F926F272529E300A9379B /* CustomCamera.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F7F202C9279BF5E100653083 /* CustomPopups */ = {
+			isa = PBXGroup;
+			children = (
+				F7F202CC279BF63300653083 /* Helper */,
+				F7F202CB279BF62C00653083 /* Model */,
+				F7F202CA279BF61E00653083 /* View */,
+			);
+			path = CustomPopups;
+			sourceTree = "<group>";
+		};
+		F7F202CA279BF61E00653083 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7F202CD279BF65900653083 /* CPContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7F202CB279BF62C00653083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F202CF279BF68900653083 /* CPTask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7F202CC279BF63300653083 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F7F202D1279BF84C00653083 /* CPExtensions.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +301,7 @@
 				BF132B81272F9C3100A7D1FB /* ToolbarPopoversHome.swift in Sources */,
 				F77F926A2725195700A9379B /* ScrollableTabBar.swift in Sources */,
 				F72B723B271BC9DE004CA48C /* ContentView.swift in Sources */,
+				F7F202D0279BF68A00653083 /* CPTask.swift in Sources */,
 				F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */,
 				F72B7239271BC9DE004CA48C /* Swift_FunsApp.swift in Sources */,
 				F72D487A27368AA100A52665 /* Neumorphism.swift in Sources */,
@@ -267,6 +309,7 @@
 				F77F9265272511A800A9379B /* Post.swift in Sources */,
 				F77F92602725071900A9379B /* InsContentView.swift in Sources */,
 				F7745D26275625C600181933 /* RefreshableHome.swift in Sources */,
+				F7F202D2279BF84C00653083 /* CPExtensions.swift in Sources */,
 				BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */,
 				F77F92622725088D00A9379B /* InsFeed.swift in Sources */,
 				F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */,
@@ -274,6 +317,7 @@
 				F77F926E2725239A00A9379B /* DirectView.swift in Sources */,
 				F77F925627240B3D00A9379B /* RectRotation.swift in Sources */,
 				BF132B7D272F9C0D00A7D1FB /* ToolbarPopover.swift in Sources */,
+				F7F202CE279BF65900653083 /* CPContentView.swift in Sources */,
 				BF132B7F272F9C2100A7D1FB /* ToolbarPopoverContent.swift in Sources */,
 				F77F926C272521CE00A9379B /* PostView.swift in Sources */,
 				F77F9270272529E300A9379B /* CustomCamera.swift in Sources */,

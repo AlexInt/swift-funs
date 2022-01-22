@@ -10,7 +10,15 @@ import SwiftUI
 //Global Usage Values...
 enum Global {
     static var rect = UIScreen.main.bounds
-    static var edges = UIApplication.shared.windows.first?.safeAreaInsets
+    static var edges: UIEdgeInsets? {
+        guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+            return nil
+        }
+        guard let safeArea = scene.windows.first?.safeAreaInsets else {
+            return nil
+        }
+        return safeArea
+    }
 }
 
 
