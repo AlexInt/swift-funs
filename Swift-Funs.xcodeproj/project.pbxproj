@@ -36,6 +36,7 @@
 		F7C197D02740C80200C7DF2A /* AutoSizingInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */; };
 		F7C197D22740FC6E00C7DF2A /* ScrollToTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */; };
 		F7DD649427A6828A003F7D68 /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD649327A6828A003F7D68 /* MarqueeText.swift */; };
+		F7DD649627ACC6CF003F7D68 /* GlassMorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD649527ACC6CF003F7D68 /* GlassMorphism.swift */; };
 		F7F202CE279BF65900653083 /* CPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202CD279BF65900653083 /* CPContentView.swift */; };
 		F7F202D0279BF68A00653083 /* CPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202CF279BF68900653083 /* CPTask.swift */; };
 		F7F202D2279BF84C00653083 /* CPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F202D1279BF84C00653083 /* CPExtensions.swift */; };
@@ -73,6 +74,7 @@
 		F7C197CF2740C80200C7DF2A /* AutoSizingInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingInput.swift; sourceTree = "<group>"; };
 		F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToTop.swift; sourceTree = "<group>"; };
 		F7DD649327A6828A003F7D68 /* MarqueeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeText.swift; sourceTree = "<group>"; };
+		F7DD649527ACC6CF003F7D68 /* GlassMorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassMorphism.swift; sourceTree = "<group>"; };
 		F7F202CD279BF65900653083 /* CPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPContentView.swift; sourceTree = "<group>"; };
 		F7F202CF279BF68900653083 /* CPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTask.swift; sourceTree = "<group>"; };
 		F7F202D1279BF84C00653083 /* CPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPExtensions.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				F7C197D12740FC6E00C7DF2A /* ScrollToTop.swift */,
 				BF824991274248620092C5D8 /* FakeCompass.swift */,
 				F7DD649327A6828A003F7D68 /* MarqueeText.swift */,
+				F7DD649527ACC6CF003F7D68 /* GlassMorphism.swift */,
 				F7F202C9279BF5E100653083 /* CustomPopups */,
 				F7745D202756249C00181933 /* RefreshableScrollview */,
 				BF132B7B272F9BF300A7D1FB /* ToolbarPopovers */,
@@ -317,6 +320,7 @@
 				BF896AFE27323E4B00115A80 /* SplashsAnimationView.swift in Sources */,
 				F77F92622725088D00A9379B /* InsFeed.swift in Sources */,
 				F72B7247271BCA03004CA48C /* HoneyComb.swift in Sources */,
+				F7DD649627ACC6CF003F7D68 /* GlassMorphism.swift in Sources */,
 				F773FBE2272CE29200D18C39 /* HudContent.swift in Sources */,
 				F77F926E2725239A00A9379B /* DirectView.swift in Sources */,
 				F77F925627240B3D00A9379B /* RectRotation.swift in Sources */,
